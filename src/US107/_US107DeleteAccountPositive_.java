@@ -34,8 +34,8 @@ public class _US107DeleteAccountPositive_ extends BaseDriver {
         WebElement displayedUsername = driver.findElement(By.cssSelector("div[class='g-3_v8 hm_hp_v8']  > div"));
         Assert.assertTrue(displayedUsername.getText().equals("Hans"));
 
-        WebElement profileDropdownButton = driver.findElement(By.cssSelector("div[id='HM_v8'] > i"));
-        profileDropdownButton.click();
+        WebElement profileDropDownButton = driver.findElement(By.cssSelector("div[id='HM_v8'] > i"));
+        profileDropDownButton.click();
 
         Assert.assertTrue(driver.getCurrentUrl().contains("akakcem"));
 
