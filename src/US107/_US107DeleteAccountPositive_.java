@@ -22,10 +22,10 @@ public class _US107DeleteAccountPositive_ extends BaseDriver {
         Assert.assertTrue(driver.getCurrentUrl().contains("akakcem/giris"));
 
         WebElement emailInputField = driver.findElement(By.cssSelector("form[id='FrmLi'] > span > input"));
-        emailInputField.sendKeys("batch7team5@gmail.com");
+        emailInputField.sendKeys("ennurgl25@gmail.com");
 
         WebElement passwordInputField = driver.findElement(By.cssSelector("form[id='FrmLi'] > :nth-child(6) > input"));
-        passwordInputField.sendKeys("1q2w3e4raA.");
+        passwordInputField.sendKeys("Akakce12.");
 
         WebElement submitLoginButton = driver.findElement(By.cssSelector("form[id='FrmLi'] > :nth-child(10)"));
         submitLoginButton.click();
