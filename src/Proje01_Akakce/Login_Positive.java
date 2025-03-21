@@ -34,7 +34,6 @@ public class Login_Positive extends BaseDriver {
         girisYap2.click();
         MyFunc.Wait(2);
 
-
         WaitAndClose();
     }
 }

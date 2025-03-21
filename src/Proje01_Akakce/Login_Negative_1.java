@@ -33,7 +33,6 @@ public class Login_Negative_1 extends BaseDriver {
         girisYap2.click();
         MyFunc.Wait(2);
 
-
         WaitAndClose();
     }
 }
