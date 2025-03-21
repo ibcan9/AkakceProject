@@ -1,4 +1,4 @@
-package Proje01_Akakce;
+package US104;
 
 import Utility.BaseDriver;
 import Utility.MyFunc;
@@ -10,7 +10,6 @@ public class Login_Positive extends BaseDriver {
 
     @Test
     public void Login(){
-
 
         driver.get("https://www.akakce.com/");
 
