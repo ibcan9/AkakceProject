@@ -11,7 +11,6 @@ public class Login_Positive extends BaseDriver {
     @Test
     public void Login(){
 
-
         driver.get("https://www.akakce.com/");
 
         WebElement girisYap= driver.findElement(By.cssSelector("div[class='g-3_v8 hm_hp_v8']>div > a[href='/akakcem/giris/']"));
