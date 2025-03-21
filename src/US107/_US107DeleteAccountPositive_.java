@@ -59,7 +59,7 @@ public class _US107DeleteAccountPositive_ extends BaseDriver {
         } catch (Exception e) {
             System.out.println("Hesabın silinmedi.");
         } finally {
-            WaitAndClose();
+              WaitAndClose();
         }
     }
 }
