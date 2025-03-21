@@ -1,4 +1,4 @@
-package Proje01_Akakce;
+package US104;
 
 import Utility.BaseDriver;
 import Utility.MyFunc;
@@ -6,7 +6,8 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class Login_Negative_1 extends BaseDriver {
+public class Login_Positive extends BaseDriver {
+
     @Test
     public void Login(){
 
@@ -21,7 +22,7 @@ public class Login_Negative_1 extends BaseDriver {
         MyFunc.Wait(2);
 
         WebElement sifre= driver.findElement(By.cssSelector("form[id='FrmLi']> span> input[type='password']"));
-        sifre.sendKeys("ahahahha");
+        sifre.sendKeys("Akakce12.");
         MyFunc.Wait(2);
 
         WebElement beniHatirla= driver.findElement(By.cssSelector("span[class='checkbox-wrapper']+label"));
